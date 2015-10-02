@@ -1,0 +1,1 @@
+Temp folder is just for putting items that are not needed in the current Building Placement. This folder won't be taken by TerraCity.

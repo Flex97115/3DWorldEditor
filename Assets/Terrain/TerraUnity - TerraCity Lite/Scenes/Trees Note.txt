@@ -1,0 +1,3 @@
+Tree models have been changed from the original scene for copyright reasons. All used trees are free. 
+
+You can change any of them in Terrain form TerraTrees or Unity's Terrain System Trees menu.

@@ -1,0 +1,25 @@
+Q:    There Are No Buttons And Graphics In GUI.
+
+A:    When You Download & Open The ".unitypackage" File, Unity Will Automatically Import Needed Plugin Files In Your Project Under "Resources => TerraUnity" Folder. If These Files Have Been Removed Accidentally, Just Reopen Or Double Click The Downloaded ".unitypackage" File To Reimport Removed GUI Files.
+
+
+Q:    Is TerraCity Geo-Referenced And Can It Load GIS Data For City Simulations?
+
+A:    No, TerraCity Is Not Geo-Referenced Yet, But This Feature Is In Our Pipeline.
+
+
+Q:    Buildings Are Placed Out Of Terrain Boundaries.
+
+A:    Make Sure The Buildings-Map Resolution Is Not Higher Than Terrain Resolution. This Will End Up To have Buildings Out Of Terrain Boundaries. For The Best Placement, Try To Have Equal Or Close Resolutions For Terrain & Map.
+
+
+Q:    Can TerraCity Place Building Models On A Non-Terrain Gameobject Or Geometry?
+
+A:    No At First Place, TerraCity Needs A Terrain To Place Building Models Exactly Over The Terrain Surface. However You Can Then Remove And Delete The Terrain And Replace It With A Gameobject Or 3D Model.
+
+If The Area Is Fully Flat, Just Insert A Flat Terrain In TerraCity To Generate City On It. Again, You Can Then Remove And Delete The Terrain And Replace It With A Gameobject Or 3D Model If Needed.
+
+
+Q:    TerraCity Is Active And Whenever I Add A Building Model Or Texture To Its Folders, It Gives Errors And Becomes Unresponsive.
+
+A:    Before Adding Models, Prefabs And Textures, Turn Off TerraCity Or Close It. If You Add Items While TerraCity Is Active, It Will Give Errors, You Have To Close TerraCity And The Next Time You Open It, The Problem Will Be Solved. The Reason Is That TerraCity Can Not Update Its Database When It's Active.
