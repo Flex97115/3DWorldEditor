@@ -1,5 +1,5 @@
 # 3DWorldEditor
-Editor 3D with Unity ( Assets directory )
+Editor 3D with Unity
 
 ##Description
 
